@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
   - ./helmrelease.yaml
   - ./namespace.yaml
-  # - ./ocirepository.yaml
+  - ./ocirepository.yaml
 
 # Teach kustomize how to update generated names
 configurations:
