@@ -1,0 +1,5 @@
+namespace: course-workload-estimator
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: course-workload-estimator
