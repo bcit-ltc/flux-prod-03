@@ -5,16 +5,16 @@ resources:
   - ../base
 
 # Prefix all resources with this name.
-namePrefix: app1-
+namePrefix: course-workload-estimator-
 
 # Add all resources to this namespace.
-namespace: app1
+namespace: course-workload-estimator
 
 # Generate an app-name config for re-use. Resource is not added to the cluster.
 configMapGenerator:
   - name: app-name
     literals:
-      - appName="app1"
+      - appName="course-workload-estimator"
     options:
       annotations:
         config.kubernetes.io/local-config: "true"
