@@ -9,7 +9,7 @@ spec:
       chart: course-workload-estimator
       sourceRef:
         kind: OCIRepository
-        name: ocirepository
+        name: course-workload-estimator-ocirepository
         namespace: course-workload-estimator
       version: "1.0.0"
   interval: 5m
