@@ -1,0 +1,15 @@
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: course-workload-estimator
+spec:
+  releaseName: course-workload-estimator
+  chart:
+    spec:
+      chart: course-workload-estimator
+      sourceRef:
+        kind: OCIRepository
+        name: ocirepository
+        namespace: course-workload-estimator
+      version: "1.0.0"
+  interval: 5m
