@@ -13,3 +13,6 @@ spec:
         namespace: course-workload-estimator
       version: "1.0.0"
   interval: 5m
+  values:
+    image:
+      tag: "1.0.0"
