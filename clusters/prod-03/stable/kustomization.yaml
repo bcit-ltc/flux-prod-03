@@ -3,11 +3,11 @@ kind: Kustomization
 
 resources:
   - ../../../apps
-  - ../../../infrastructure
+  # - ../../../infrastructure
 
 labels:
-- includeSelectors: true
-  pairs:
-    environment: stable
+  - includeSelectors: true
+    pairs:
+      environment: stable
 
 nameSuffix: -stable
