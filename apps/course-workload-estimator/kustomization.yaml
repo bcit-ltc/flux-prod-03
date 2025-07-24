@@ -21,7 +21,6 @@ configMapGenerator:
 
 components:
   # - ../../components/generators/ssl-certificates
-
   # Update the OCIRepository URL based on the app-name stored in the ConfigMap.
   - ../../components/transformers/oci-url
 
